@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+study_data/
+submissions/
+.DS_Store
+
+# Participant chat exports (included in the manual ZIP, never in the starter commit)
+*_chat.json

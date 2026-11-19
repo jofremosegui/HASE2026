@@ -1,0 +1,1 @@
+"""Independent Workshop Planner module."""
