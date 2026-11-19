@@ -10,7 +10,7 @@ from hase_lab.reviews.service import assign as commit
 class EligibilityTests(unittest.TestCase):
     def test_eligible_set_excludes_full_and_incompatible_items(self):
         student, items = demo_data()
-        self.assertEqual({x.item_id for x in eligible(student, items)}, {"p1", "p2", "p3"})
+        self.assertEqual({x.item_id for x in eligible(student, items)}, {"p1", "p2", "p3", "p6", "p7", "p8"})
 
     def test_domain_restriction_and_capacity(self):
         student, items = demo_data()

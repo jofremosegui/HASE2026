@@ -35,7 +35,9 @@ subtasks are sequential; completing one task is not required for another.
 
 Use a **new chat in the default Copilot panel for each task**, keep the default
 model selection, and apply the response-style instruction we give you. Implement
-one subtask at a time. You may share the current subtask and relevant code or
+one subtask at a time. Try to understand what was broken or missing and what
+your changes do: you will explain this yourself in the form after each task.
+Keep the assigned response style throughout the task chat. You may share the current subtask and relevant code or
 errors; do not paste the whole sheet or ask Copilot to solve later subtasks.
 
 **Save your changes.** The open web tab automatically checks saved Python files,
